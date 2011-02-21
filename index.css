@@ -4,27 +4,14 @@
   right: 10px;
 }
 
-header{
-  position:absolute;
-}
-
-span{
-  position:relative;
-}
-
-span#title{
+#title{
   float:left;
 }
 
-span#signupin{
+#signupin{
   float:right;
 }
 
 .clearboth{
   clear: both;
-}
-
-footer{
-  height: 20px;
-  bottom: 0px;
 }

@@ -36,6 +36,12 @@ $(document).ready(function(){
   
   // Let the user click the login button, and return to the previous page after they're done
   $('#signupin').click(function(){
-    
+    $.ajax({
+      url:'index.php',
+      data:'index',
+      success: function(data){
+        $('#content').html(data);
+      }
+    });
   });
 });
